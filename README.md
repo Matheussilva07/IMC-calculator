@@ -1,4 +1,5 @@
 # Esta é uma calculadora de IMC
+## Projeto realizado durante o curso Explorer da Rocketseat
 
 ## Funcionalidade:
 
