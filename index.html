@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link rel="shorcut icon" href="https://th.bing.com/th/id/OIP.vIk1JHRmCl13YopNvkpEJgHaJW?rs=1&pid=ImgDetMain">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <script src="./js/main.js" defer type="module"></script> <!-- Toda vez que colocar o script no inicio é necessário colocar o atributo defer.
+                                                 Ele indica que todo o html deve ser rodado primeiro e no final ele será tambem, pois do contrário dará erro. -->
+    
+</head>
+
+<body>
+
+    <div class="alert-error">
+
+        Digite somente números
+    </div>
+
+    <div class="container">
+        <main class="card">
+           
+            <form action="">
+                <h1 class="title">Cálculos de IMC</h1>
+
+                    <div class="input-wrapper">
+
+                        <label for="weight">Peso (kg)</label>
+                        <input id="weight" type="text" placeholder="60">
+
+                    </div>
+
+                    <div class="input-wrapper">
+
+                        <label for="height">Altura (cm)</label>
+                        <input id="height" type="text" placeholder="165">
+
+                    </div>
+
+
+                    <button type="submit">Calcular IMC <img src="./assets/arrow.svg" alt="seta para a direita"></button>
+            </form>
+        </main>
+    </div>
+    
+    <div class="modal-wrapper">
+
+        <div class="modal card ">
+            <h2 class="title">
+
+                <button class="close" >
+                    <img src="./assets/close.svg" alt="Imagem para fechar o pop-up">
+                </button>
+
+                <span></span>
+            </h2>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
